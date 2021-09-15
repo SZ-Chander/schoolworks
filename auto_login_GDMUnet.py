@@ -1,7 +1,7 @@
 from selenium import webdriver
 browser = webdriver.Chrome()
 # browser = webdriver.Chrome(r'D:\games\chromedriver.exe')#if line 2 have bug,please delete line 2 and use line 3,the path in ()is your chromedriver, you need donwload and ready it.
-url = 'http://172.18.255.14/a79.htm'
+url = ''
 
 if __name__ == '__main__':
     browser.get(url)
